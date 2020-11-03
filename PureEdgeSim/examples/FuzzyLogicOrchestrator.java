@@ -39,7 +39,7 @@ public class FuzzyLogicOrchestrator extends CustomEdgeOrchestrator {
 
 	protected int findVM(String[] architecture, Task task) {
 		if ("INCREASE_LIFETIME".equals(algorithm))
-			return increseLifetime(architecture, task);
+			return increaseLifetime(architecture, task);
 		else if ("FUZZY_LOGIC".equals(algorithm))
 			return fuzzyLogic(task);
 		else {
@@ -84,7 +84,7 @@ public class FuzzyLogicOrchestrator extends CustomEdgeOrchestrator {
 
 		if (fis.getVariable("offload").defuzzify() > 50) {
 			String[] architecture2 = { "Cloud" };
-			return increseLifetime(architecture2, task);
+			return increaseLifetime(architecture2, task);
 		} else {
 			String[] architecture2 = { "Edge", "Mist" };
 			return stage2(architecture2, task);

@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Example7",
+            "request": "launch",
+            "mainClass": "examples.Example7",
+            "projectName": "PureEdgeSim"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Example8",
+            "request": "launch",
+            "mainClass": "examples.Example8",
+            "projectName": "PureEdgeSim"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Example1",
+            "request": "launch",
+            "mainClass": "examples.Example1",
+            "projectName": "PureEdgeSim"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MainApplication",
             "request": "launch",
             "mainClass": "com.mechalikh.pureedgesim.MainApplication",
