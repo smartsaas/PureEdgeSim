@@ -20,13 +20,13 @@
  **/
 package examples;
 
-import org.cloudbus.cloudsim.cloudlets.Cloudlet.Status;
-
 import com.mechalikh.pureedgesim.DataCentersManager.DataCenter;
 import com.mechalikh.pureedgesim.ScenarioManager.SimulationParameters;
 import com.mechalikh.pureedgesim.SimulationManager.SimLog;
 import com.mechalikh.pureedgesim.SimulationManager.SimulationManager;
 import com.mechalikh.pureedgesim.TasksGenerator.Task;
+
+import org.cloudbus.cloudsim.cloudlets.Cloudlet.Status;
 
 import net.sourceforge.jFuzzyLogic.FIS;
 
