@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Example9",
+            "request": "launch",
+            "mainClass": "examples.Example9",
+            "projectName": "PureEdgeSim"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Example7",
             "request": "launch",
             "mainClass": "examples.Example7",
